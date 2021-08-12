@@ -1,0 +1,97 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.btn {
+  background: #FF4848;
+  background-image: -webkit-linear-gradient(top, #0099ff, #009dff);
+  background-image: -moz-linear-gradient(top, #0099ff, #009dff);
+  background-image: -ms-linear-gradient(top, #0099ff, #009dff);
+  background-image: -o-linear-gradient(top, #0099ff, #009dff);
+  background-image: linear-gradient(to bottom, #0099ff, #009dff);
+  -webkit-border-radius: 36;
+  -moz-border-radius: 36;
+  border-radius: 36px;
+  text-shadow: 0px 5px 10px #666666;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* color: #000000; */
+  font-size: 23px;
+  font-weight: bold;
+  padding: 9px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  margin-left: 0;
+  margin-right: 0;
+  color: #082032;
+
+}
+
+.btn:hover {
+  background: #ed0c0c;
+  background-image: -webkit-linear-gradient(top, #ed0c0c, #f00808);
+  background-image: -moz-linear-gradient(top, #ed0c0c, #f00808);
+  background-image: -ms-linear-gradient(top, #ed0c0c, #f00808);
+  background-image: -o-linear-gradient(top, #ed0c0c, #f00808);
+  background-image: linear-gradient(to bottom, #ed0c0c, #f00808);
+  text-decoration: none;
+}
+
+.buton{
+  display: flex;
+  padding-top: 50px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.players{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #FFFF00;
+  border-radius: 25%;
+  height: 300px;
+  padding: 25px;
+  background-color: #50CB93;
+  line-height: 50px;
+}
